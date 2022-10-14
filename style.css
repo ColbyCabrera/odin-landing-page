@@ -6,4 +6,58 @@
 
 html {
     font-family: 'Roboto', sans-serif;
+    font-size: 62.5%;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+    margin: 0 2rem;
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+
+
+.header {
+    background-color: #1F2937;
+    font-size: 2.4rem;
+    color: #F9FAF8;
+    font-weight: 500;
+    padding: 0 20%;
+}
+
+.nav-container {
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-left, .nav-right {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.nav-right ul {
+    height: 100%;
+}
+
+.nav-right li {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.hero {
+    height: 35rem;
 }
