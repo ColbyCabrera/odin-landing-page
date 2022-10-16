@@ -114,12 +114,13 @@ a {
 }
 
 .info {
-    height: 35rem;
+    min-height: 35rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 3rem;
     background-color: #fff;
+    text-align: center;
 }
 
 .info h2 {
@@ -130,6 +131,7 @@ a {
 
 .info-blocks {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 1.6rem;
     padding: 3rem;
