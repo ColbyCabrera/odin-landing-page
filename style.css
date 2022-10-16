@@ -64,12 +64,14 @@ a {
 }
 
 .hero {
-    height: 40rem;
+    min-height: 40rem;
     display: flex;
+    padding-bottom: 3rem;
 }
 
 .hero-content, .hero-image {
     margin-top: 5rem;
+    margin-right: 2rem;
 }
 
 .hero-content {
@@ -168,7 +170,7 @@ footer p {
 
 .quote {
     background-color: #E5E7EB;
-    height: 40rem;
+    min-height: 40rem;
     padding: 3rem;
     display: flex;
     flex-direction: column;
@@ -190,4 +192,43 @@ footer p {
     width: 70%;
     display: flex;
     justify-content: end;
+}
+
+.action {
+    background-color: #fff;
+    padding: 5% 15%;
+    color: #F9FAF8;
+}
+
+.action-left {
+    flex: 1 1 70%;
+}
+
+.action-right {
+    flex: 1 1 30%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+
+.action-box {
+    background-color: #3882F6;
+    border-radius: 1.6rem;
+    padding: 2rem;
+    display: flex;
+}
+
+.action-box h3 {
+    font-size: 2.4rem;
+}
+
+.action-box p {
+    font-size: 1.6rem;
+    font-weight: 300;
+    color: #E5E7EB;
+}
+
+.action-btn {
+    border: 2px solid #fff;
 }
