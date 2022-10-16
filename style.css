@@ -10,6 +10,10 @@ html {
     background-color: #1F2937
 }
 
+body { 
+    height: 100vh;
+}
+
 ul {
     list-style: none;
     padding: 0;
@@ -113,7 +117,7 @@ a {
     flex-direction: column;
     align-items: center;
     padding: 3rem;
-    background-color: #F9FAF8;
+    background-color: #fff;
 }
 
 .info h2 {
@@ -153,11 +157,37 @@ footer {
     padding: 1.6rem;
     display: flex;
     justify-content: center;
+    flex: 1 1 20vh;
 }
 
 footer p {
     color: #E5E7EB;
     font-size: 18px;
     font-weight: 300;
-    
+}
+
+.quote {
+    background-color: #E5E7EB;
+    height: 40rem;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote-text {
+    font-size: 3.6rem;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+    width: 70%;
+}
+
+.quote-name {
+    font-size: 2.4rem;
+    font-weight: 500;
+    width: 70%;
+    display: flex;
+    justify-content: end;
 }
